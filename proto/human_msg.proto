@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package car;
+
+option go_package = "github.com/Portalshik/grps_test/pb";
+
+import "github.com/Portalshik/grps_test/proto/sex_enum.proto";
+
+message Human {
+    string fullName = 1;
+    int32 age = 2;
+    Sex sex = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option go_package = "github.com/Portalshik/grps_test/pb";
+
+enum Sex {
+    UNKNOWN = 0;
+    MALE = 1;
+    FEMALE = 2;
+}
