@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package human;
 
-option go_package = "github.com/Portalshik/grps_test/pb";
+option go_package = "pb";
 
 enum Sex {
     UNKNOWN = 0;
