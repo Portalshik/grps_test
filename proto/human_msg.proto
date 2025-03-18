@@ -1,10 +1,10 @@
 syntax = "proto3";
 
-package car;
+package human;
 
 option go_package = "github.com/Portalshik/grps_test/pb";
 
-import "github.com/Portalshik/grps_test/proto/sex_enum.proto";
+import "sex_enum.proto";
 
 message Human {
     string fullName = 1;

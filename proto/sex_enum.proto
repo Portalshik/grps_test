@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package human;
+
 option go_package = "github.com/Portalshik/grps_test/pb";
 
 enum Sex {
